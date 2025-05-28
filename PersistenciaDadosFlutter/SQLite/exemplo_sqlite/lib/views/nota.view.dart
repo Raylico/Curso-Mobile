@@ -89,7 +89,7 @@ class _NotaViewState extends State<NotaView>{
     AlertDialog(
       title: Text("Atualizar Nota"),
       content: TextField(
-        onChanged: (value){
+        onChanged: (value){ 
           notaAtualizada = Nota(
             id: nota.id,
             titulo: "${nota.titulo} (Editado)", 
